@@ -8,8 +8,8 @@ var arrAnswer = new Array(15);
 function AskQuestion()
 {
 	lblAnswer.innerText = String.format(arrAnswer,
-	demonios[Math.round(Math.random() * 2)],
-	objectos[Math.round(Math.random() * 2)]);
+	demonios[Math.round(Math.random() * 5)],
+	objectos[Math.round(Math.random() * 5)]);
 }
 
 function resetAnswer()
