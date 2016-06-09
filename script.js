@@ -24,8 +24,8 @@ var arrAnswer = new Array(15);
 
 function AskQuestion(){
 	lblAnswer.innerText = String.format(arrAnswer,
-	demonios[Math.round(Math.random() * (demonios.length) - 1)],
-	objectos[Math.round(Math.random() * (objectos.length) - 1)]);
+	demonios[Math.round(Math.random() * (demonios.length - 1))],
+	objectos[Math.round(Math.random() * (objectos.length - 1))]);
 }
 
 function resetAnswer(){
