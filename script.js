@@ -2,7 +2,7 @@ var arrAnswer = new Array(15);
 
 	arrAnswer[0] = "Devil Sapato";
 	arrAnswer[1] = "Evil Vassoura";
-	arrAnswer[2] = "Cocada no Moç";
+	arrAnswer[2] = "Dark Otário";
 
 function AskQuestion()
 {
