@@ -6,7 +6,7 @@ var arrAnswer = new Array(15);
 
 function AskQuestion()
 {
-	lblAnswer.innerText = arrAnswer[Math.round(Math.random() * 3)].format(txtQuestion);
+	lblAnswer.innerText = String.format(arrAnswer[Math.round(Math.random() * 3)], txtQuestion);
 }
 
 function resetAnswer()
