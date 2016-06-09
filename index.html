@@ -1,21 +1,30 @@
-<center>
+<html>
+	<head>
+		<link href="/styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<center>
 
-<h1>Magic 8 Ball</h1>
+			<h1>Magic 8 Ball</h1>
+			
+			<h4>What would you like to know?</h4>
+			
+			<table width="320px" style="text-align:center">
+				<tr>
+					<td><input id="txtQuestion" type="text" style="width:300px" onKeyPress="resetAnswer()"/></td>
+				</tr>
+			</table>
+			</br>
+			
+			<input type="button" value="Ask the 8 Ball" onclick="AskQuestion()"/>
+			</br>
+			
+			<h3>The 8 Ball Says:</h3>
+			
+			<marquee id="lblAnswer" style="font-style:italic">Ask the 8 Ball a question...</marquee>
+		
+		</center>
 
-<h4>What would you like to know?</h4>
-
-<table width="320px" style="text-align:center">
-	<tr>
-		<td><input id="txtQuestion" type="text" style="width:300px" onKeyPress="resetAnswer()"/></td>
-	</tr>
-</table>
-</br>
-
-<input type="button" value="Ask the 8 Ball" onclick="AskQuestion()"/>
-</br>
-
-<h3>The 8 Ball Says:</h3>
-
-<marquee id="lblAnswer" style="font-style:italic">Ask the 8 Ball a question...</marquee>
-
-</center>
+		<script src="/script.js"></script>
+	</body>
+</html>
