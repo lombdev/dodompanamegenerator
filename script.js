@@ -1,12 +1,15 @@
 var arrAnswer = new Array(15);
 
-	arrAnswer[0] = "Devil {0}";
-	arrAnswer[1] = "Evil {0}";
-	arrAnswer[2] = "Dark {0}";
+	var demonios = ["Dark", "Evil", "Devil", "Black", "Demon", "Nightmare"];
+	var objectos = ["Sapato", "Vassoura", "Otário", "Meia", "Lanterna", "Prato"];
+
+	var arrAnswer = "{0} {1}";
 
 function AskQuestion()
 {
-	lblAnswer.innerText = String.format(arrAnswer[Math.round(Math.random() * 2)], txtQuestion.value);
+	lblAnswer.innerText = String.format(arrAnswer,
+	demonios[Math.round(Math.random() * 2)],
+	objectos[Math.round(Math.random() * 2)]);
 }
 
 function resetAnswer()
