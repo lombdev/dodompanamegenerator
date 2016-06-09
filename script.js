@@ -11,5 +11,5 @@ function AskQuestion()
 
 function resetAnswer()
 {
-	lblAnswer.innerText = "O Devil Sapato está a espera ..."
+	lblAnswer.innerText = "..."
 }
