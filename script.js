@@ -1,18 +1,33 @@
 var arrAnswer = new Array(15);
 
-	var demonios = ["Dark", "Evil", "Devil", "Black", "Demon", "Nightmare"];
-	var objectos = ["Sapato", "Vassoura", "Otário", "Meia", "Lanterna", "Prato"];
+	var demonios = ["Dark",
+		"Evil",
+		"Devil",
+		"Black",
+		"Demon",
+		"Nightmare",
+		"Lord",
+		"Dragon",
+		"Ninja",
+		"Magic"];
+		
+	var objectos = ["Sapato",
+		"Vassoura",
+		"Otário",
+		"Meia",
+		"Carro",
+		"Prato",
+		"Menino",
+		"Cavalo"];
 
 	var arrAnswer = "{0} {1}";
 
-function AskQuestion()
-{
+function AskQuestion(){
 	lblAnswer.innerText = String.format(arrAnswer,
-	demonios[Math.round(Math.random() * 5)],
-	objectos[Math.round(Math.random() * 5)]);
+	demonios[Math.round(Math.random() * (demonios.length) - 1)],
+	objectos[Math.round(Math.random() * (objectos.length) - 1)]);
 }
 
-function resetAnswer()
-{
+function resetAnswer(){
 	lblAnswer.innerText = "..."
 }
