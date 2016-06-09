@@ -29,5 +29,5 @@ function AskQuestion(){
 }
 
 function resetAnswer(){
-	lblAnswer.innerText = "..."
+	lblAnswer.innerText = "...";
 }
