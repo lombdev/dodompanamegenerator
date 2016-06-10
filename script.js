@@ -6,10 +6,7 @@ var arrAnswer = new Array(15);
 		"Black",
 		"Demon",
 		"Nightmare",
-		"Lord",
-		"Dragon",
-		"Ninja",
-		"Magic"];
+		"Dragon"];
 		
 	var objectos = ["Sapato",
 		"Vassoura",
@@ -18,7 +15,8 @@ var arrAnswer = new Array(15);
 		"Carro",
 		"Prato",
 		"Menino",
-		"Cavalo"];
+		"Cavalo",
+		"Preto"];
 
 	var arrAnswer = "{0} {1}";
 
