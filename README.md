@@ -1,2 +1,2 @@
 # dodompanamegenerator
-http://lombdev.github.io/dodompanamegenerator/
+https://lombdev.github.io/dodompanamegenerator/
