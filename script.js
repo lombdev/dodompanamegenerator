@@ -23,7 +23,7 @@ var objectos = ["Sapato",
 	"Visceral",
 	"Fabinho",
 			   "Amiguinho",
-			   "Grooming"
+			   "Grooming",
 			   "Miúdo",
 			   "Blhef"];
 
