@@ -17,7 +17,7 @@ input[type="button"] {
   min-width: 120px;
   
   /* Improve readability */
-  font-size: 18px;
+  font-size: 56px;
   
   /* Add comfortable spacing */
   padding: 12px 24px;
@@ -70,4 +70,8 @@ h1.yellow {
 h1.orange {
   color: #ffffff;
   text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffff00, 0 0 80px #ffff00, 0 0 90px #ffff00, 0 0 100px #ffff00, 0 0 150px #ffa500;
+}
+
+h2 {
+  font-size: 75px;
 }
