@@ -6,20 +6,26 @@ var demonios = ["Dark",
 	"Black",
 	"Demon",
 	"Nightmare",
-	"Dragon"];
+	"Dragão",
+    "Irmão"];
 
 var objectos = ["Sapato",
-	"Otário",
+	"Brother",
 	"Meia",
 	"Carro",
 	"Prato",
 	"Menino",
 	"Cavalo",
-	"Preto",
-	"Default",
+	"Garoto",
+	"Snaita",
+	"Sapatilha",
 	"Jarda",
 	"Visceral",
-	"Oié"];
+	"Fabinho",
+			   "Amiguinho",
+			   "Grooming"
+			   "Miúdo",
+			   "Blhef"];
 
 var arrAnswer = "{0} {1}";
 
