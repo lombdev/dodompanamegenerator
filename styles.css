@@ -75,3 +75,45 @@ h1.orange {
 h2 {
   font-size: 75px;
 }
+
+h1 {
+  white-space: pre-line;
+}
+
+.triple-label {
+  font-size: 36px;
+  cursor: pointer;
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.triple-label input[type="checkbox"] {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  accent-color: #ff0000;
+}
+
+#historySection {
+  margin-top: 24px;
+  opacity: 0.4;
+}
+
+.history-label {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+h1.history-entry {
+  font-size: 50px;
+  white-space: pre-line;
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ff0000, 0 0 40px #ff0000;
+  margin: 4px 0;
+}
+
+h1.history-entry:empty {
+  display: none;
+}

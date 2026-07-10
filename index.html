@@ -2,14 +2,15 @@
 
 <head>
 	<title>Gerador de nomes do Dodompa</title>
-	<link href="styles.css" rel="stylesheet">
+	<link href="styles.css"
+		  rel="stylesheet">
 </head>
 
 <body>
 
 	<div class="container">
 
-		<h2>Gerador de nomes do Dodompa V2.1</h2>
+		<h2>Gerador de nomes do Dodompa V3.0</h2>
 
 		<!--<h4>Escreve prai moç</h4>
 			
@@ -20,11 +21,31 @@
 			</table>
 			</br>-->
 
-		<input type="button" value="Gerar" onclick="AskQuestion()" />
+		<input type="button"
+			   value="Gerar"
+			   onclick="AskQuestion()" />
 		</br>
 
-		<div id="bl" style="visibility: visible">
-			<h1 class="red"><a id="lblAnswer"></a></h1>
+		<label class="triple-label">
+			<input type="checkbox"
+				   id="tripleMode" />
+			Modo Triplo
+		</label>
+
+		<div id="bl"
+			 style="visibility: visible">
+			<h1 class="red"
+				id="lblAnswer"></h1>
+		</div>
+
+		<div id="historySection">
+			<p class="history-label"
+			   id="historyLabel"
+			   style="display:none">Anteriores:</p>
+			<h1 class="history-entry"
+				id="history1"></h1>
+			<h1 class="history-entry"
+				id="history2"></h1>
 		</div>
 
 	</div>
