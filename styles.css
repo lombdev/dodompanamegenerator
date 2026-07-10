@@ -11,6 +11,22 @@ body {
   text-align: center;
 }
 
+input[type="button"] {
+  /* Increase size for fingers */
+  min-height: 48px;
+  min-width: 120px;
+  
+  /* Improve readability */
+  font-size: 18px;
+  
+  /* Add comfortable spacing */
+  padding: 12px 24px;
+  
+  /* Better touch feedback */
+  cursor: pointer;
+  border-radius: 8px; /* Smoother look for mobile */
+}
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
