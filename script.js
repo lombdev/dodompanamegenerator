@@ -1,5 +1,6 @@
 var demonios = [
   "Dark",
+  "Mega",
   "Evil",
   "Devil",
   "Black",
@@ -11,9 +12,11 @@ var demonios = [
   "Mau",
   "Malvado",
   "Hater",
+  "Cope",
 ];
 
 var objectos = [
+  "Coper",
   "Maxxing",
   "Bomba",
   "Hater",
