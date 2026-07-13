@@ -1,4 +1,6 @@
-var demonios = [
+var words = [
+  "Super",
+  "Atrasado",
   "Dark",
   "Mega",
   "Evil",
@@ -13,14 +15,15 @@ var demonios = [
   "Malvado",
   "Hater",
   "Cope",
-];
-
-var objectos = [
   "Coper",
   "Maxxing",
   "Bomba",
-  "Hater",
   "Kick",
+  "Ponta pé",
+  "Homem",
+  "Man",
+  "Woman",
+  "Mulher",
   "Demon",
   "Cabrão",
   "Sapato",
@@ -44,20 +47,23 @@ var objectos = [
 
 var nameHistory = [];
 
+function getRandomWord(excludeWords) {
+  var availableWords = words.filter(function(word) {
+    return excludeWords.indexOf(word) === -1;
+  });
+  return availableWords[Math.round(Math.random() * (availableWords.length - 1))];
+}
+
 function generateName(triple) {
   if (triple) {
-    return String.format(
-      "{0} {1} {2}",
-      demonios[Math.round(Math.random() * (demonios.length - 1))],
-      demonios[Math.round(Math.random() * (demonios.length - 1))],
-      objectos[Math.round(Math.random() * (objectos.length - 1))],
-    );
+    var word1 = getRandomWord([]);
+    var word2 = getRandomWord([word1]);
+    var word3 = getRandomWord([word1, word2]);
+    return String.format("{0} {1} {2}", word1, word2, word3);
   }
-  return String.format(
-    "{0} {1}",
-    demonios[Math.round(Math.random() * (demonios.length - 1))],
-    objectos[Math.round(Math.random() * (objectos.length - 1))],
-  );
+  var word1 = getRandomWord([]);
+  var word2 = getRandomWord([word1]);
+  return String.format("{0} {1}", word1, word2);
 }
 
 function AskQuestion() {
