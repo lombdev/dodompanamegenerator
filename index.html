@@ -12,25 +12,18 @@
 
 		<h2>Gerador de nomes do Dodompa V3.0</h2>
 
-		<!--<h4>Escreve prai moç</h4>
-			
-			<table width="320px" style="text-align:center">
-				<tr>
-					<td><input id="txtQuestion" type="text" style="width:300px" onKeyPress="resetAnswer()"/></td>
-				</tr>
-			</table>
-			</br>-->
+		<div style="display: ruby;">
+			<input type="button"
+				   value="Gerar"
+				   onclick="AskQuestion()" />
+			</br>
 
-		<input type="button"
-			   value="Gerar"
-			   onclick="AskQuestion()" />
-		</br>
-
-		<label class="triple-label">
-			<input type="checkbox"
-				   id="tripleMode" />
-			Modo Triplo
-		</label>
+			<label class="triple-label">
+				<input type="checkbox"
+					   id="tripleMode" />
+				Modo Triplo
+			</label>
+		</div>
 
 		<div id="bl"
 			 style="visibility: visible">
@@ -47,6 +40,12 @@
 			<h1 class="history-entry"
 				id="history2"></h1>
 		</div>
+
+		<input type="button"
+			   class="arena-btn"
+			   value="🤫 Batalha de Nomes"
+			   onclick="window.location.href='battle.html'" />
+		</br>
 
 	</div>
 	<script src="effects.js"></script>

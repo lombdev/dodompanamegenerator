@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Batalha de Nomes</title>
+    <link href="styles.css"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>⚔️ Batalha de Nomes ⚔️</h2>
+        <p class="battle-subtitle">Escolhe</p>
+
+        <div class="battle-arena">
+            <div class="name-card"
+                 id="card1"
+                 onclick="pickWinner(0)">
+                <span id="name1"></span>
+            </div>
+            <div class="vs-divider">VS</div>
+            <div class="name-card"
+                 id="card2"
+                 onclick="pickWinner(1)">
+                <span id="name2"></span>
+            </div>
+        </div>
+
+        <div id="battleHistorySection">
+            <p class="history-label"
+               id="battleHistoryLabel"
+               style="display:none">Batalhas anteriores:</p>
+            <div id="battleHistoryList"></div>
+        </div>
+
+    </div>
+
+    <a href="index.html"
+       class="back-link">← Voltar</a>
+
+    <script src="effects.js"></script>
+    <script src="string.js"></script>
+    <script src="script.js"></script>
+    <script src="battle.js"></script>
+</body>
+
+</html>
